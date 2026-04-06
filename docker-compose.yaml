@@ -4,4 +4,5 @@ services:
     container_name: frps
     ports:
       - "7000:7000"
+      - "7800:7800"
     restart: unless-stopped
